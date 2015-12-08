@@ -9,7 +9,7 @@ def test_help():
     assert stdout == b"""DCOS HelloWorld Example Subcommand
 
 Usage:
-    dcos helloworld info
+    dcos helloworld --info
 
 Options:
     --help           Show this screen
