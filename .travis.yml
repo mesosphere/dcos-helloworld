@@ -1,0 +1,13 @@
+language: python
+matrix:
+  include:
+    - python: "2.7"
+    - python: "3.5"
+    - python: "3.5"
+      env: SYNTAX=true
+install:
+  - pip install pytest
+  - pip install -r requirements.txt
+script:
+  - if [ "$SYNTAX" == true ]; then exec tox -e syntax; fi
+  - tox -e py$(sed 's/\.//g' <<<${TRAVIS_PYTHON_VERSION})-integration
