@@ -1,5 +1,8 @@
-DCOS HelloWorld Subcommand [![Build Status](https://travis-ci.org/mesosphere/dcos-helloworld.svg?branch=master)](https://travis-ci.org/mesosphere/dcos-helloworld)
+DCOS HelloWorld Subcommand
 ==========================
+
+.. image:: https://secure.travis-ci.org/mesosphere/dcos-helloworld.svg
+    :target: http://travis-ci.org/mesosphere/dcos-helloworld
 
 Basic DCOS subcommand
 
