@@ -1,4 +1,4 @@
 sphinx
 tox
 wheel
--e git+git@github.com:mesosphere/dcos-cli#egg=dcos
+-e git+https://github.com/mesosphere/dcos-cli.git@0.2.0#egg=dcos-master
