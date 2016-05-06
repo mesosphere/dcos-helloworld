@@ -8,6 +8,7 @@ Basic DCOS subcommand
 
 Setup
 -----
+#. Run from source or run from binary. If you would like to run from a binary, continue to 'Binary' section below.
 #. Make sure you meet requirements for installing packages_
 #. Clone git repo for the dcos helloworld cli::
 
@@ -38,6 +39,28 @@ Configure Environment and Run
 #. Get started by calling the DCOS HelloWorld CLI's help::
 
     dcos helloworld help
+
+
+Binary:
+-----------
+
+Create Binary:
+##############
+
+#. Install pyinstaller::
+
+   pip install pyinstaller
+
+#. Create hellworld cli binary::
+
+   make binary
+
+Run Binary:
+###########
+
+#. Update `PATH` to have the dcos-helloworld binary. The created binary is is in folder `dist`::
+
+   PATH=/path/to/binary:$PATH
 
 Running Tests:
 --------------
