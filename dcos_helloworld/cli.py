@@ -14,7 +14,7 @@ from dcos_helloworld import constants
 def main():
     args = docopt.docopt(
         __doc__,
-        version='dcos-marathon version {}'.format(constants.version))
+        version='dcos-helloworld version {}'.format(constants.version))
 
     if args['helloworld'] and args['--info']:
         print('Example of a DCOS subcommand')
