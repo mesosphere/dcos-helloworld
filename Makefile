@@ -12,5 +12,6 @@ test:
 packages:
 	bin/packages.sh
 
-binary: clean env packages
-	pyinstaller binary/binary.spec
+binary: clean env
+	pip install pyinstaller==3.1.1
+	pyinstaller binary.spec
