@@ -29,8 +29,6 @@ Setup
 Configure Environment and Run
 -----------------------------
 
-#. TODO: Talk about how to configure the root dcos cli
-
 #. :code:`source` the setup file to add the :code:`dcos-helloworld` command line interface to your
    :code:`PATH`::
 
@@ -38,7 +36,7 @@ Configure Environment and Run
 
 #. Get started by calling the DCOS HelloWorld CLI's help::
 
-    dcos helloworld help
+    dcos-helloworld help
 
 
 Binary:
